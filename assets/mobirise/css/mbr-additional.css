@@ -1696,7 +1696,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #458e52;
+  background-color: #ffffff;
 }
 .cid-rFwwB02Kfp button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -1803,10 +1803,22 @@ body {
     left: -1rem;
   }
 }
+.cid-rFDQQdVO6v {
+  padding-top: 225px;
+  padding-bottom: 225px;
+  background-image: url("../../../assets/images/1509522726-catering-1600x1040.jpg");
+}
+@media (max-width: 768px) {
+  .cid-rFDQQdVO6v .mbr-text,
+  .cid-rFDQQdVO6v .mbr-section-subtitle,
+  .cid-rFDQQdVO6v .mbr-section-title {
+    text-align: center !important;
+  }
+}
 .cid-rFxxdfsPbY {
-  padding-top: 150px;
-  padding-bottom: 150px;
-  background-image: url("../../../assets/images/20191006-133501-2000x9002.jpg");
+  padding-top: 15px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
 }
 .cid-rFxxdfsPbY .card-wrapper {
   z-index: 3;
@@ -1835,10 +1847,11 @@ body {
 }
 .cid-rFxxdfsPbY H2 {
   text-align: center;
+  color: #232323;
 }
 .cid-rFxwQQzNCG {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 0px;
+  padding-bottom: 45px;
   background-color: #ffffff;
 }
 .cid-rFxwQQzNCG .mbr-shop {
@@ -2517,6 +2530,184 @@ body {
 }
 .cid-rFxwQQzNCG .sidebar-title {
   font-weight: bold;
+}
+.cid-rFxwQQzNCG .item-title {
+  color: #000000;
+}
+.cid-rFxwQQzNCG .shop-item-price,
+.cid-rFxwQQzNCG .price-block {
+  color: #232323;
+}
+.cid-rFxwQQzNCG .card-description {
+  color: #000000;
+}
+.cid-rFD8Z5rCvF {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/img-20170306-161316-1200x900.jpg");
+}
+.cid-rFD8Z5rCvF .mbr-section-subtitle {
+  color: #ffffff;
+  text-align: center;
+}
+.cid-rFD8Z5rCvF .mbr-slider .carousel-control {
+  background: #1b1b1b;
+}
+.cid-rFD8Z5rCvF .mbr-slider .carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-rFD8Z5rCvF .mbr-slider .carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+.cid-rFD8Z5rCvF .mbr-slider .modal-body .close {
+  background: #1b1b1b;
+}
+.cid-rFD8Z5rCvF .mbr-gallery-item > div::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #59585d;
+  opacity: 0;
+  -webkit-transition: 0.2s opacity ease-in-out;
+  transition: 0.2s opacity ease-in-out;
+  background: linear-gradient(180deg, #59585d, #458e52);
+}
+.cid-rFD8Z5rCvF .icon-focus {
+  font-size: 2rem !important;
+  width: 50px;
+  height: 50px;
+  top: calc(50% - 25px);
+  left: calc(50% - 25px);
+}
+.cid-rFD8Z5rCvF .icon-focus:before {
+  content: '+';
+  border-radius: 100px;
+  background: #444444;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 6px;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.cid-rFD8Z5rCvF .icon-video {
+  font-size: 1.5rem !important;
+  width: 50px;
+  height: 50px;
+  top: calc(50% - 25px);
+  left: calc(50% - 25px);
+}
+.cid-rFD8Z5rCvF .icon-video:before {
+  border-radius: 100px;
+  background: #444444;
+  width: 100%;
+  height: 100%;
+  padding-left: 6px;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.cid-rFD8Z5rCvF .mbr-gallery-title {
+  transition: all 0.5s ease;
+  position: absolute;
+  text-align: left;
+  display: none;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  padding: 1rem;
+  color: #ffffff;
+  font-weight: bold;
+  background: transparent;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+}
+.cid-rFD8Z5rCvF ul {
+  font-size: 0;
+}
+.cid-rFD8Z5rCvF .mbr-gallery-filter ul {
+  text-align: left;
+}
+.cid-rFD8Z5rCvF .mbr-gallery-filter ul li .btn {
+  border: none !important;
+  background-color: transparent;
+  color: #59585d !important;
+  padding: 0.5rem 1rem 0.6rem;
+  border-radius: 0;
+  margin: 0!important;
+  transition: padding, border 0s, transform .2s;
+}
+.cid-rFD8Z5rCvF .mbr-gallery-filter ul li .btn.active {
+  padding: 0.5rem 1rem 0.5rem;
+  border-radius: 0 !important;
+}
+.cid-rFD8Z5rCvF .mbr-gallery-filter ul li {
+  padding: 0;
+  margin: 0 .2rem;
+}
+.cid-rFD8Z5rCvF .mbr-gallery-filter ul li:first-child,
+.cid-rFD8Z5rCvF .mbr-gallery-filter ul li:last-child {
+  margin: 0;
+}
+.cid-rFD8Z5rCvF .mbr-gallery-item > div:hover .mbr-gallery-title {
+  display: block;
+}
+.cid-rFD8Z5rCvF .mbr-gallery-item > div:hover:before {
+  opacity: 0.3 !important;
+}
+.cid-rFD8Z5rCvF .btn {
+  background: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+.cid-rFD8Z5rCvF .btn.active:after {
+  animation: none;
+}
+.cid-rFD8Z5rCvF .btn:active {
+  box-shadow: none !important;
+}
+.cid-rFD8Z5rCvF .btn:hover {
+  background: transparent !important;
+}
+.cid-rFD8Z5rCvF .btn:hover:before {
+  background: transparent !important;
+}
+.cid-rFD8Z5rCvF .btn:before {
+  background-color: transparent !important;
+}
+.cid-rFD8Z5rCvF .btn:focus {
+  box-shadow: none !important;
+}
+.cid-rFD8Z5rCvF .mbr-section-title,
+.cid-rFD8Z5rCvF .mbr-gallery-filter ul {
+  text-align: center;
+  color: #ffffff;
+}
+.cid-rFE07BPy5Z {
+  padding-top: 225px;
+  padding-bottom: 225px;
+  background-image: url("../../../assets/images/osveshchenie-cekhov-yazda-3-1322x800.jpg");
+}
+@media (max-width: 768px) {
+  .cid-rFE07BPy5Z .mbr-text,
+  .cid-rFE07BPy5Z .mbr-section-subtitle,
+  .cid-rFE07BPy5Z .mbr-section-title {
+    text-align: center !important;
+  }
+}
+.cid-rFE07BPy5Z .mbr-section-title {
+  text-align: center;
 }
 .cid-rFxwEPcy4g {
   padding-top: 60px;
